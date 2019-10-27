@@ -1,0 +1,12 @@
+html {
+    min-height: 100vh;
+}
+.alert {
+    margin: 0!important;
+    padding: 2px 4px!important;
+}
+#users, #messages {
+    padding-bottom: 70px;
+    height: calc(100vh - 160px);
+    overflow-y: auto;
+}
